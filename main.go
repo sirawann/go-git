@@ -11,12 +11,17 @@ func sub(a, b int) int {
 }
 
 func sum(a, b int) int {
-	return a + b 
+	return a + b
+}
+
+func mul(a, b int) int {
+	return a * b
 }
 
 func main() {
 	fmt.Println("Hello World")
 	fmt.Println(sum(5, 3))
 	fmt.Println(sub(5, 3))
-}
+	fmt.Println(mul(5, 3))
 
+}
